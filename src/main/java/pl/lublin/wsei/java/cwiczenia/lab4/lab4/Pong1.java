@@ -52,7 +52,8 @@ private void initKula() {
                lott.nextDouble()*ARENAWIDTH+ARENAX1,
                lott.nextDouble()*ARENAHEIGHT+ARENAY1,
                5+lott.nextDouble()*20,
-               5+lott.nextDouble()*20);
+               5+lott.nextDouble()*20,
+                Color.WHITESMOKE);
 
     }
 }
