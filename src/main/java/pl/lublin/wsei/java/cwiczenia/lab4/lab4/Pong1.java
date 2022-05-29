@@ -60,6 +60,7 @@ public class Pong1 extends Application {
                     5 + lott.nextDouble() * 20,
                     5 + lott.nextDouble() * 20,
                     10,
+                    10,
                     15,
                     Color.WHITESMOKE);
         }
