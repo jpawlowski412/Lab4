@@ -4,11 +4,13 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
 public class Kulka {
+
     private static final double R = 10;
-    private double ySpeed;
-    private double xSpeed;
-    private double xPos;
-    private double yPos;
+    protected double ySpeed;
+    protected double xSpeed;
+    protected double xPos;
+    protected double yPos;
+    protected Color color;
 
     public Color getColor() {
         return color;
@@ -17,8 +19,6 @@ public class Kulka {
     public void setColor(Color color) {
         this.color = color;
     }
-
-    private Color color;
 
     Kulka(double xPos, double yPos, double xSpeed, double ySpeed, Color color) {
         this.xPos = xPos;
